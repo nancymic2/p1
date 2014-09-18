@@ -4,7 +4,7 @@
 ###Project 1
 ####September 18, 2014
 
-**Project URL [http://p1.scholarpawws.com](http://p1.scholarpawws.com)**
+**Project URL [http://p1.scholarpaws.com](http://p1.scholarpaws.com)**
 
 + Project is a simple web page student introduction explaining what I do and why I am taking the class.
 
