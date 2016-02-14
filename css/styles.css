@@ -1,0 +1,199 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+#headline {
+	font-size: 1.4em;
+}
+a {
+text-decoration: none;
+color: white;
+}
+a:hover {
+	color: yellow;
+}
+#nav {
+	height: 60px;
+	background-color: black;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+#nav ul li {
+	text-decoration: none;
+	display: inline;
+	padding-right: 3em;
+
+}
+
+#header1 {
+	background-color: black;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	padding: 20px;
+	font-size: 1.3em;
+	width: 100%;
+}
+.container {
+	width: 960px;
+	background-color: white;
+	margin: 0px auto;
+	border: 1px solid gray;
+}
+
+#header {
+	clear: left;
+	width: 100%;
+	background-image: url("../images/bgBig.jpg");
+	background-repeat: no-repeat;
+	height: 200px;
+}
+#footer {
+	clear: left;
+	width: 100%;
+	background-color: #909090;
+	height: 75px;
+	border-top: 1px solid white;
+	padding-top: 1.5em;
+	padding-left: 1em;
+}
+.hundred {
+	width: 100%;
+	background-color: red;
+	height: 200px;
+	clear: left;
+}
+
+.third {
+	width:34%;
+
+	height: 200px;
+	float: left;
+
+}
+#ball {
+	background-color: yellow;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	z-index: 5;
+	display: inline;
+	float: right;
+	color: white;
+	font-size: 2.1em;
+	font-weight: 100;
+	margin-top: -.2em;
+
+}
+
+img {
+	float: left;
+}
+.twothird {
+	width:66%;
+	background-color: white;
+	height: 200px;
+	float: left;
+	padding: 1.3em;
+
+}
+.backh {
+	/* background-image: url("images/backhand_fed.jpg"); */
+}
+
+@media screen and (max-width:959px) {
+	.container {
+		width: 100%;
+
+	}
+	#header {
+		clear: all;
+		width: 100%;
+	}
+	#footer {
+		clear: all;
+		width: 100%;
+
+	height: 75px;
+	}
+	.hundred {
+		width: 100%;
+
+		height: 200px;
+
+			clear: left;
+	}
+
+	.third {
+		width:34%;
+
+		height: 200px;
+		float: left;
+	}
+
+
+	.twothird {
+		width:66%;
+
+		height: 200px;
+			float: left;
+	}
+
+}
+/*-----------------------------------------------*/
+@media screen and (max-width:640px) {
+.container {
+		width: 100%;
+		background-color: green;
+	}
+	#header {
+		clear: all;
+		width: 100%;
+	background-image: url("../images/bgMed.jpg");
+	background-repeat: no-repeat;
+	}
+    #footer {
+		clear: all;
+		width: 100%;
+
+
+	}
+	.hundred {
+		width: 100%;
+
+		height: 200px;
+
+			clear: left;
+	}
+
+	.third {
+		width:100%;
+
+		height: 200px;
+		/*float: left;*/
+	}
+
+
+	.twothird {
+		width:100%;
+
+		height: 200px;
+			
+	}
+	#nav {
+		height: auto;
+	}
+	#nav ul li {
+		display: block;
+		padding-top: 7px;
+	}
+
+}
+
+
