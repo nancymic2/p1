@@ -7,6 +7,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:500' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/">
 	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
  <div class="container"> 
@@ -32,7 +33,7 @@ html {
 }
 
 .container {
-	width: 100%;
+	width: 960px;
 	background-color: green;
 }
 
@@ -43,8 +44,7 @@ html {
 	width: 100%;
 	background-color: red;
 	height: 200px;
-		//float: left;
-		//padding: 2em;
+
 		clear: left;
 }
 
@@ -53,7 +53,7 @@ html {
 	background-color: blue;
 	height: 200px;
 	float: left;
-	//padding: 2em;
+
 }
 
 
@@ -62,8 +62,78 @@ html {
 	background-color: yellow;
 	height: 200px;
 		float: left;
-		//padding: 2em;
+
 }
+
+@media screen and (max-width:959px) {
+	.container {
+		width: 100%;
+		background-color: green;
+	}
+	#header {
+		clear: all;
+		width: 100%;
+	}
+	.hundred {
+		width: 100%;
+		background-color: red;
+		height: 200px;
+
+			clear: left;
+	}
+
+	.third {
+		width:33.33%;
+		background-color: blue;
+		height: 200px;
+		float: left;
+	}
+
+
+	.twothird {
+		width:66.66%;
+		background-color: yellow;
+		height: 200px;
+			float: left;
+	}
+
+}
+/*-----------------------------------------------*/
+@media screen and (max-width:640px) {
+.container {
+		width: 100%;
+		background-color: green;
+	}
+	#header {
+		clear: all;
+		width: 100%;
+	}
+	.hundred {
+		width: 100%;
+		background-color: red;
+		height: 200px;
+
+			clear: left;
+	}
+
+	.third {
+		width:33.33%;
+		background-color: blue;
+		height: 200px;
+		/*float: left;*/
+	}
+
+
+	.twothird {
+		width:66.66%;
+		background-color: yellow;
+		height: 200px;
+			
+	}
+
+
+}
+
 </style>
 
 
