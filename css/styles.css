@@ -159,7 +159,7 @@ img {
 @media screen and (max-width:640px) {
 .container {
 		width: 100%;
-		background-color: green;
+
 	}
 	#header {
 		clear: all;
