@@ -71,9 +71,8 @@ a:hover {
 }
 
 .third {
-	width:34%;
+	width:33%;
 
-	//height: 200px;
 	float: left;
 
 }
@@ -96,9 +95,9 @@ img {
 	float: left;
 }
 .twothird {
-	width:66%;
+	width:67%;
 	background-color: white;
-	//height: 200px;
+
 	float: left;
 	padding: 1.3em;
 
@@ -106,6 +105,12 @@ img {
 .backh {
 	/* background-image: url("images/backhand_fed.jpg"); */
 }
+	.middle {
+		width: 100%;
+		clear: all;
+		clear: right;
+	}
+
 
 @media screen and (max-width:959px) {
 	.container {
@@ -131,18 +136,22 @@ img {
 	}
 
 	.third {
-		width:34%;
+		width:33%;
 
-		height: 200px;
+	
 		float: left;
 	}
 
 
 	.twothird {
-		width:66%;
+		width:67%;
 
-		height: 200px;
+
 			float: left;
+	}
+	.middle {
+		width: 100%;
+		clear: all;
 	}
 
 }
@@ -175,7 +184,7 @@ img {
 	.third {
 		width:100%;
 
-		height: 200px;
+
 		/*float: left;*/
 	}
 
@@ -183,7 +192,6 @@ img {
 	.twothird {
 		width:100%;
 
-		height: 200px;
 			
 	}
 	#nav {
