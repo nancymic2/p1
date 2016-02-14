@@ -66,14 +66,14 @@ a:hover {
 .hundred {
 	width: 100%;
 	background-color: red;
-	height: 200px;
+	//height: 200px;
 	clear: left;
 }
 
 .third {
 	width:34%;
 
-	height: 200px;
+	//height: 200px;
 	float: left;
 
 }
@@ -98,7 +98,7 @@ img {
 .twothird {
 	width:66%;
 	background-color: white;
-	height: 200px;
+	//height: 200px;
 	float: left;
 	padding: 1.3em;
 
