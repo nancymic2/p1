@@ -13,7 +13,8 @@
 </head>
 <body>
  <div class="container"> 
- 	<div id="header1"><h2>Play Tennis Exactly Like Roger Federer in a Few Easy Steps</h2>
+ 	<div id="header1"><span id="headline">Play Tennis Exactly Like Roger Federer in a Few Easy Steps</span>
+ 		<span id="ball">&nbsp;(</span>
  	</div>
  	<div id="header">
  	</div>
@@ -23,11 +24,21 @@
  			<li><a href="backhand.html">Backhand</a></li>
  			<li><a href="forehand.html">Forehand</a></li>
  			<li><a href="serve.html">Serve</a></li>
+ 			<li><a href="serve.html">Flying</a></li>
  		</ul>
  	</div>
  	<div id="middle">
  	    <div id="backh" class="third"><img src="images/backhand_fed.jpg"></div>
- 	    <div class="twothird"></div>
+ 	    <div class="twothird">You too can win a grand slam in tennis if you would just follow a few basic practices.
+
+ 	    	<ul>
+ 	    		<li>Get a great serve</li>
+				<li>Hit great topspin on your forehand</li>
+ 	    		<li>Slice like a champ</li>
+ 	    		<li>Fly through the air</li>
+ 	    	</ul>
+
+ 	    </div>
     </div>
     <div id="footer">
     </div>
@@ -49,6 +60,9 @@ html {
 body {
 	font-family: 'Roboto', sans-serif;
 }
+#headline {
+	font-size: 1.4em;
+}
 a {
 text-decoration: none;
 color: white;
@@ -59,7 +73,8 @@ a:hover {
 #nav {
 	height: 60px;
 	background-color: black;
-	border: 1px solid white;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 }
 #nav ul li {
 	text-decoration: none;
@@ -69,8 +84,8 @@ a:hover {
 }
 
 #header1 {
-	background-color: white;
-	border: 1px solid gray;
+	background-color: black;
+	color: white;
 	font-family: 'Fjalla One', sans-serif;
 	padding: 20px;
 	font-size: 1.3em;
@@ -80,6 +95,7 @@ a:hover {
 	width: 960px;
 	background-color: white;
 	margin: 0px auto;
+	border: 1px solid gray;
 }
 
 #header {
@@ -92,7 +108,7 @@ a:hover {
 #footer {
 	clear: left;
 	width: 100%;
-	background-color: green;
+	background-color: #dddddd;
 	height: 75px;
 }
 .hundred {
@@ -104,9 +120,23 @@ a:hover {
 
 .third {
 	width:34%;
-	background-color: blue;
+
 	height: 200px;
 	float: left;
+
+}
+#ball {
+	background-color: yellow;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	z-index: 5;
+	display: inline;
+	float: right;
+	color: white;
+	font-size: 2.1em;
+	font-weight: 100;
+	margin-top: -.2em;
 
 }
 
@@ -115,9 +145,10 @@ img {
 }
 .twothird {
 	width:66%;
-	background-color: yellow;
+	background-color: white;
 	height: 200px;
-		float: left;
+	float: left;
+	padding: 1.3em;
 
 }
 .backh {
@@ -127,7 +158,7 @@ img {
 @media screen and (max-width:959px) {
 	.container {
 		width: 100%;
-		background-color: green;
+
 	}
 	#header {
 		clear: all;
@@ -136,12 +167,12 @@ img {
 	#footer {
 		clear: all;
 		width: 100%;
-		background-color: green;
+
 	height: 75px;
 	}
 	.hundred {
 		width: 100%;
-		background-color: red;
+
 		height: 200px;
 
 			clear: left;
@@ -149,7 +180,7 @@ img {
 
 	.third {
 		width:34%;
-		background-color: blue;
+
 		height: 200px;
 		float: left;
 	}
@@ -157,7 +188,7 @@ img {
 
 	.twothird {
 		width:66%;
-		background-color: yellow;
+
 		height: 200px;
 			float: left;
 	}
@@ -178,12 +209,12 @@ img {
     #footer {
 		clear: all;
 		width: 100%;
-			background-color: green;
+
 
 	}
 	.hundred {
 		width: 100%;
-		background-color: red;
+
 		height: 200px;
 
 			clear: left;
@@ -191,7 +222,7 @@ img {
 
 	.third {
 		width:100%;
-		background-color: blue;
+
 		height: 200px;
 		/*float: left;*/
 	}
@@ -199,7 +230,7 @@ img {
 
 	.twothird {
 		width:100%;
-		background-color: yellow;
+
 		height: 200px;
 			
 	}
