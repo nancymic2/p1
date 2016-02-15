@@ -15,6 +15,10 @@ body {
 p {
 	padding: 1em;
 }
+.bord {
+	border-right: 1px solid gray;
+	height: 150px;
+}
 a {
 text-decoration: none;
 color: white;
