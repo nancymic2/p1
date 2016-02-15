@@ -16,8 +16,9 @@ p {
 	padding: 1em;
 }
 .bord {
-	border-right: 1px solid gray;
-	height: 150px;
+	border-right: 1px dotted gray;
+
+
 }
 a {
 text-decoration: none;
