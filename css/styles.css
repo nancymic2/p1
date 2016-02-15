@@ -163,6 +163,9 @@ img {
 		width: 100%;
 		clear: all;
 	}
+		#ball {
+		display: none;
+	}
 
 }
 /*-----------------------------------------------*/
@@ -211,7 +214,19 @@ img {
 		display: block;
 		padding-top: 7px;
 	}
-
+	#ball {
+		display: none;
+	}
 }
 
+@media screen and (max-width:335px) {
+		#header {
+		clear: all;
+		width: 100%;
+	background-image: url("../images/bgSmall.jpg");
+	background-repeat: no-repeat;
+	height: 157px;
+	}
+
+}
 
