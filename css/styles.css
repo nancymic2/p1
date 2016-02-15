@@ -16,7 +16,7 @@ p {
 	padding: 1em;
 }
 .bord {
-	border-right: 1px dotted gray;
+	border-right: 1px dotted #dddddd;
 
 
 }
