@@ -19,6 +19,9 @@ color: white;
 a:hover {
 	color: yellow;
 }
+img {
+	max-width: 100%;
+}
 #nav {
 	height: 60px;
 	background-color: black;
