@@ -8,6 +8,7 @@ html {
 
 body {
 	font-family: 'Roboto', sans-serif;
+
 }
 #headline {
 	font-size: 1.4em;
@@ -187,6 +188,8 @@ img {
 }
 /*-----------------------------------------------*/
 @media screen and (max-width:640px) {
+
+
 .container {
 		width: 100%;
 
@@ -243,6 +246,9 @@ img {
 	background-image: url("../images/bgSmall.jpg");
 	background-repeat: no-repeat;
 	height: 157px;
+	}
+	body {
+		font-size: .8em;
 	}
 
 }
