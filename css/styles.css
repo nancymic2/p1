@@ -12,12 +12,18 @@ body {
 #headline {
 	font-size: 1.4em;
 }
+p {
+	padding: 1em;
+}
 a {
 text-decoration: none;
 color: white;
 }
 a:hover {
 	color: yellow;
+}
+.third a {
+	color: blue;
 }
 img {
 	max-width: 100%;
@@ -103,6 +109,7 @@ img {
 
 img {
 	float: left;
+
 }
 .twothird {
 	width:67%;
@@ -119,8 +126,13 @@ img {
 		width: 100%;
 		clear: all;
 		clear: right;
-	}
+		clear: left;
+		margin-bottom: 30px;
 
+	}
+.space {
+	margin-bottom: 10px;
+}
 
 @media screen and (max-width:959px) {
 	.container {
