@@ -273,6 +273,9 @@ clear: right;
 .twothird {
 	width: 100%;
 }
+.middle {
+	margin-bottom: 5px;
+}
 
 }
 
