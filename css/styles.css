@@ -286,6 +286,9 @@ p {
 img {
 	width: 100%;
 }
+#grip {
+	width: auto;
+}
 
 }
 
