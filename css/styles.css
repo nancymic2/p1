@@ -185,10 +185,13 @@ img {
 		#ball {
 		display: none;
 	}
+	#nav {
+		height: auto;
+	}
 
 }
 /*-----------------------------------------------*/
-@media screen and (min-width:436px) and (max-width:740px) {
+@media screen and (min-width:401px) and (max-width:640px) {
 
 
 .container {
@@ -240,7 +243,7 @@ img {
 	}
 }
 
-@media screen and (max-width:435px) {
+@media screen and (max-width:400px) {
 		#header {
 		clear: all;
 		width: 100%;
@@ -257,6 +260,15 @@ img {
 	padding-right: 3em;
 	width: 100%;
 
+}
+#nav {
+	height: auto;
+
+}
+.third {
+	width: 100%;
+	clear: left;
+clear: right;
 }
 
 }
