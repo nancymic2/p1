@@ -288,6 +288,7 @@ img {
 }
 #grip {
 	width: auto;
+	border-radius: 50%;
 }
 
 }
