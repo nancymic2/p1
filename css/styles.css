@@ -279,6 +279,9 @@ clear: right;
 .space {
 	margin-bottom: 1px;
 }
+p {
+	margin-bottom: -10px;
+}
 
 }
 
