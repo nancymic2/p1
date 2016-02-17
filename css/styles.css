@@ -40,10 +40,11 @@ img {
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
 }
-#nav ul li {
+#nav li {
 	text-decoration: none;
 	display: inline;
 	padding-right: 3em;
+
 
 }
 
@@ -187,7 +188,7 @@ img {
 
 }
 /*-----------------------------------------------*/
-@media screen and (max-width:640px) {
+@media screen and (min-width:336px) and (max-width:640px) {
 
 
 .container {
@@ -250,6 +251,13 @@ img {
 	body {
 		font-size: .8em;
 	}
+	#nav li {
+	text-decoration: none;
+	display: block;
+	padding-right: 3em;
+	width: 100%;
+
+}
 
 }
 
