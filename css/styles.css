@@ -240,7 +240,7 @@ img {
 	}
 }
 
-@media screen and (max-width:335px) {
+@media screen and (max-width:435px) {
 		#header {
 		clear: all;
 		width: 100%;
