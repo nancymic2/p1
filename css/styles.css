@@ -14,16 +14,25 @@ body {
 	font-size: 1.4em;
 }
 p {
-	padding: 1em;
+	padding: .5em;
 }
 .bord {
 	border-right: 1px dotted #dddddd;
 
 
 }
+h2 {
+	padding: 3px;
+	padding-left: 10px;
+}
+.title {
+	background-color: #cdcdcd;
+	color: white;
+
+}
 a {
-text-decoration: none;
-color: white;
+	text-decoration: none;
+	color: white;
 }
 a:hover {
 	color: yellow;
@@ -81,8 +90,7 @@ img {
 }
 .hundred {
 	width: 100%;
-	background-color: red;
-	//height: 200px;
+	
 	clear: left;
 }
 
@@ -137,9 +145,9 @@ img {
 		margin-bottom: 30px;
 
 	}
-.space {
-	margin-bottom: 10px;
-}
+	.space {
+		margin-bottom: 10px;
+	}
 
 @media screen and (max-width:959px) {
 	.container {
@@ -154,14 +162,14 @@ img {
 		clear: all;
 		width: 100%;
 
-	height: 75px;
+	    height: 75px;
 	}
 	.hundred {
 		width: 100%;
 
 		height: 200px;
 
-			clear: left;
+		clear: left;
 	}
 
 	.third {
@@ -176,7 +184,7 @@ img {
 		width:67%;
 
 
-			float: left;
+		float: left;
 	}
 	.middle {
 		width: 100%;
@@ -194,15 +202,15 @@ img {
 @media screen and (min-width:401px) and (max-width:640px) {
 
 
-.container {
+	.container {
 		width: 100%;
 
 	}
 	#header {
 		clear: all;
 		width: 100%;
-	background-image: url("../images/bgMed2.jpg");
-	background-repeat: no-repeat;
+	    background-image: url("../images/bgMed2.jpg");
+	    background-repeat: no-repeat;
 	}
     #footer {
 		clear: all;
@@ -215,7 +223,7 @@ img {
 
 		height: 200px;
 
-			clear: left;
+		clear: left;
 	}
 
 	.third {
@@ -244,12 +252,12 @@ img {
 }
 
 @media screen and (max-width:400px) {
-		#header {
-		clear: all;
+	#header {
+	    clear: all;
 		width: 100%;
-	background-image: url("../images/bgSmall.jpg");
-	background-repeat: no-repeat;
-	height: 157px;
+	    background-image: url("../images/bgSmall.jpg");
+	    background-repeat: no-repeat;
+	    height: 157px;
 	}
 	body {
 		font-size: .8em;
@@ -260,36 +268,36 @@ img {
 	padding-right: 3em;
 	width: 100%;
 
-}
-#nav {
-	height: auto;
+	}
+	#nav {
+		height: auto;
 
-}
-.third {
-	width: 100%;
-	clear: left;
-clear: right;
-}
-.twothird {
-	width: 100%;
-}
-.middle {
-	margin-bottom: 5px;
-}
-.space {
-	margin-bottom: 1px;
-}
-p {
-	margin-bottom: -10px;
-	margin-top: -8px;
-}
-img {
-	width: 100%;
-}
-#grip {
-	width: auto;
-	border-radius: 50%;
-}
+	}
+	.third {
+		width: 100%;
+		clear: left;
+	    clear: right;
+	}
+	.twothird {
+		width: 100%;
+	}
+	.middle {
+		margin-bottom: 5px;
+	}
+	.space {
+		margin-bottom: 1px;
+	}
+	p {
+		margin-bottom: -10px;
+		margin-top: -8px;
+	}
+	img {
+		width: 100%;
+	}
+	#grip {
+		width: auto;
+
+	}
 
 }
 
