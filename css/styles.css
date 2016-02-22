@@ -199,6 +199,14 @@ img {
 	}
 
 }
+
+@media screen and (min-width:641px) and (max-width:765px) {
+
+	body {
+		font-size: .8em;
+	}
+
+	}
 /*-----------------------------------------------*/
 @media screen and (min-width:401px) and (max-width:640px) {
 
@@ -207,9 +215,7 @@ img {
 		width: 100%;
 
 	}
-	p {
-		padding: 1em;
-	}
+
 	#header {
 		clear: all;
 		width: 100%;
@@ -219,9 +225,14 @@ img {
     #footer {
 		clear: all;
 		width: 100%;
-
-
 	}
+
+	p {
+		padding-bottom: .2em;
+		padding-top: .2em;
+		padding-left: 1em;
+	}
+	
 	.hundred {
 		width: 100%;
 
