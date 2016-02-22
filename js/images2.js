@@ -9,7 +9,7 @@ window.onresize=function(){
 
 
 function sizeit() {
-// onload check the width of the window and get from the data attribute the appropriate image
+// onload or on change check the width of the window and get from the data attribute the appropriate image
 	var imgsrc=document.getElementById('serveImg');
 
 	if (window.matchMedia('(max-width: 400px)').matches) {

@@ -14,7 +14,8 @@ body {
 	font-size: 1.4em;
 }
 p {
-	padding: .5em;
+	padding-bottom: 1em;
+	padding-left: 1em;
 }
 .bord {
 	border-right: 1px dotted #dddddd;
