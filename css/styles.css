@@ -207,6 +207,9 @@ img {
 		width: 100%;
 
 	}
+	p {
+		padding: 1em;
+	}
 	#header {
 		clear: all;
 		width: 100%;
