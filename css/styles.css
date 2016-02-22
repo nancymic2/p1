@@ -200,7 +200,7 @@ img {
 
 }
 /*-----------------------------------------------*/
-@media screen and (min-width:461px) and (max-width:640px) {
+@media screen and (min-width:401px) and (max-width:640px) {
 
 
 	.container {
@@ -255,7 +255,7 @@ img {
 	}
 }
 
-@media screen and (max-width:460px) {
+@media screen and (max-width:400px) {
 	#header {
 	    clear: all;
 		width: 100%;
