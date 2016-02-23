@@ -10,6 +10,13 @@ body {
 	font-family: 'Roboto', sans-serif;
 
 }
+#hamburger {
+	display: none;
+	cursor: pointer;
+	position: relative;
+	top: 170px;
+
+}
 #headline {
 	font-size: 1.4em;
 }
@@ -135,9 +142,7 @@ img {
 	padding: 1.3em;
 
 }
-.backh {
-	/* background-image: url("images/backhand_fed.jpg"); */
-}
+
 	.middle {
 		width: 100%;
 		clear: all;
@@ -257,9 +262,13 @@ img {
 	#nav {
 		height: auto;
 	}
-	#nav ul li {
+	#nav li a {
 		display: block;
 		padding-top: 7px;
+		height: 40px;
+		border-bottom: 1px solid white;
+		margin-left: -30px;
+		text-align: center;
 	}
 	#ball {
 		display: none;
@@ -317,3 +326,4 @@ img {
 	}
 
 }
+
