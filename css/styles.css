@@ -127,7 +127,7 @@ img {
 
 }
 #grip {
-	float: right;
+	float: left;
 	padding: 1em 1em 1em;
 	border-radius: 15em;
 
@@ -315,10 +315,10 @@ img {
 	#ball {
 		display: none;
 	}
-	#nav {
+	/*#nav {
 		height: 20px;
 		background-color: black;
-	}
+	}*/
 	#nav ul {
 		height: auto;
 		display: none;
@@ -342,10 +342,10 @@ img {
 		font-size: .8em;
 	}
 
-	#nav {
+	/*#nav {
 		height: 20px;
 		background-color: black;
-	}
+	}*/
 	#nav ul {
 		height: auto;
 		display: none;
