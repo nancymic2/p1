@@ -246,10 +246,7 @@ img {
 	#hamburger {
 		display: block;
 	}
-	#nav {
-		height: 20px;
-		background-color: black;
-	}
+
 	#nav ul {
 		height: auto;
 		display: none;
