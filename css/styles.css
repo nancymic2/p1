@@ -294,15 +294,12 @@ img {
 	.third {
 		width:100%;
 
-
-		/*float: left;*/
 	}
 
 
 	.twothird {
 		width:100%;
 
-			
 	}
 
 	#nav ul li {
@@ -312,10 +309,7 @@ img {
 	#ball {
 		display: none;
 	}
-	/*#nav {
-		height: 20px;
-		background-color: black;
-	}*/
+
 	#nav ul {
 		height: auto;
 		display: none;
@@ -339,10 +333,7 @@ img {
 		font-size: .8em;
 	}
 
-	/*#nav {
-		height: 20px;
-		background-color: black;
-	}*/
+
 	#nav ul {
 		height: auto;
 		display: none;

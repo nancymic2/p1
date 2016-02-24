@@ -12,7 +12,7 @@ window.onresize=function(){
 
 function sizeit() {
 // onload or on change check the width of the window and get from the data attribute the appropriate image
-//change to class serveImg and loop through
+
 	var imgsrc=document.getElementsByClassName('serveImg');
 	for (var i=0; i<imgsrc.length; i++) {
 
@@ -38,11 +38,11 @@ function sizeit() {
 }
 
 function getmenu() {
-	//var navigation=document.getElementById('nav').innerHTML;
+	
 	var smallnav=document.getElementById('smallnav');
-	//smallnav.innerHTML=navigation;
+
 	if (smallnav.style.display=="block") {
-	smallnav.style.display="none";
+		smallnav.style.display="none";
 	}
 	else {
 		smallnav.style.display="block";
