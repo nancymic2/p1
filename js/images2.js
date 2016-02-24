@@ -1,7 +1,8 @@
 
 window.onload=function(){
-	document.getElementById('hamburger').addEventListener('click', getmenu, false);
+	
 	sizeit();
+	document.getElementById('hamburger').addEventListener('click', getmenu, false);
 }
 
 window.onresize=function(){
@@ -33,6 +34,7 @@ function sizeit() {
 			document.getElementById('smallnav').style.display="none";
 		}
     }
+    return;
 }
 
 function getmenu() {
