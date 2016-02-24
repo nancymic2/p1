@@ -10,10 +10,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 
 }
-
-.actlink {
-	color: #00ffff; 
-}
 #headline {
 	font-size: 1.4em;
 }
@@ -30,8 +26,6 @@ p {
 	position: relative;
 	left: 0px;
 	top: 0px;
-	display: none;
-	cursor: pointer;
 
 }
 h2 {
@@ -66,6 +60,7 @@ img {
 	text-decoration: none;
 	display: inline;
 	padding-right: 3em;
+
 
 }
 
@@ -161,30 +156,6 @@ img {
 		margin-bottom: 10px;
 	}
 
-#smallnav {
-	display: none;
-	width: 94%;
-	z-index: 10;
-	opacity: .9;
-	position: absolute;
-	top: 70px;
-	left: 10px;
-	background-color: #D63E1D;
-
-}
-#smallnav ul a {
-	display: block;
-	padding: 20px 20px 20px;
-	border-bottom: 1px solid gray;
-	text-decoration: none;
-	}
-
-	#smallnav ul li {
-	text-decoration: none;
-	display: block;
-}
-
-
 @media screen and (max-width:959px) {
 	.container {
 		width: 100%;
@@ -232,6 +203,9 @@ img {
 	#nav {
 		height: auto;
 	}
+	#headline {
+	font-size: 1.4em;
+}
 
 }
 
@@ -241,29 +215,13 @@ img {
 		font-size: .8em;
 	}
 	#headline {
-	font-size: 1em;
-	}
-	#hamburger {
-		display: block;
-	}
-	#nav {
-		height: 20px;
-		background-color: black;
-	}
-	#nav ul {
-		height: auto;
-		display: none;
-
+	font-size: .7em;
 	}
 }
 /*-----------------------------------------------*/
 @media screen and (min-width:401px) and (max-width:640px) {
-	#hamburger {
-		display: block;
-	}
-	#headline {
-		font-size: .9em;
-	}
+
+
 	.container {
 		width: 100%;
 
@@ -307,30 +265,25 @@ img {
 
 			
 	}
-
+	#nav {
+		height: auto;
+	}
 	#nav ul li {
 		display: block;
 		padding-top: 7px;
 	}
+
+
+	}
 	#ball {
 		display: none;
 	}
-	#nav {
-		height: 20px;
-		background-color: black;
-	}
-	#nav ul {
-		height: auto;
-		display: none;
-
+	#headline {
+	font-size: .7em;
 	}
 }
 
 @media screen and (max-width:400px) {
-	#headline {
-	font-size: .9em;
-	}
-
 	#header {
 	    clear: all;
 		width: 100%;
@@ -341,14 +294,16 @@ img {
 	body {
 		font-size: .8em;
 	}
+	#nav li {
+	text-decoration: none;
+	display: block;
+	padding-right: 3em;
+	width: 100%;
+
+	}
 
 	#nav {
-		height: 20px;
-		background-color: black;
-	}
-	#nav ul {
 		height: auto;
-		display: none;
 
 	}
 	.third {
@@ -377,12 +332,8 @@ img {
 		width: auto;
 
 	}
-	#hamburger {
-	
-		display: block;
-		width: 30px;
-		height: 30px;
-		top: -5px;
-	}
+		#headline {
+	font-size: 1.5em;
+}
 
 }

@@ -1,5 +1,6 @@
 
 window.onload=function(){
+	document.getElementById('hamburger').addEventListener('click', getmenu, false);
 	sizeit();
 }
 
@@ -29,7 +30,21 @@ function sizeit() {
 		else {
 			var imglarge=imgsrc[i].getAttribute('data-large');
 			imgsrc[i].src=imglarge;
+			document.getElementById('smallnav').style.display="none";
 		}
     }
+}
+
+function getmenu() {
+	//var navigation=document.getElementById('nav').innerHTML;
+	var smallnav=document.getElementById('smallnav');
+	//smallnav.innerHTML=navigation;
+	if (smallnav.style.display=="block") {
+	smallnav.style.display="none";
+	}
+	else {
+		smallnav.style.display="block";
+	}
+
 }
 
