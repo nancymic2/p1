@@ -14,6 +14,7 @@ function sizeit() {
 // onload or on change check the width of the window and get from the data attribute in the image tag the appropriate image
 // on small screens, only the smallest image will download, followed by medium, then large
 // images on all pages are served based on this function. however the photo credit page gets a larger image on a small screen as it looks better in a single column
+//images names *Cred are the small version. medium is *Med
 
 	var imgsrc=document.getElementsByClassName('serveImg');
 	for (var i=0; i<imgsrc.length; i++) {
