@@ -23,6 +23,7 @@ p {
 }
 .bord {
 	border-right: 1px dotted #dddddd;
+	padding-right: 1.5em;
 }
 
 #hamburger {
