@@ -152,7 +152,7 @@ img {
 }
 	.middle {
 		width: 100%;
-		clear: all;
+		clear: both;
 		clear: right;
 		clear: left;
 		margin-bottom: 30px;
@@ -192,11 +192,11 @@ img {
 
 	}
 	#header {
-		clear: all;
+		clear: both;
 		width: 100%;
 	}
 	#footer {
-		clear: all;
+		clear: both;
 		width: 100%;
 
 	    height: 75px;
@@ -225,7 +225,7 @@ img {
 	}
 	.middle {
 		width: 100%;
-		clear: all;
+		clear: both;
 	}
 		#ball {
 		display: none;
@@ -271,13 +271,13 @@ img {
 	}
 
 	#header {
-		clear: all;
+		clear: both;
 		width: 100%;
 	    background-image: url("../images/bgMed2.jpg");
 	    background-repeat: no-repeat;
 	}
     #footer {
-		clear: all;
+		clear: both;
 		width: 100%;
 	}
 
@@ -327,7 +327,7 @@ img {
 	}
 
 	#header {
-	    clear: all;
+	    clear: both;
 		width: 100%;
 	    background-image: url("../images/bgSmall.jpg");
 	    background-repeat: no-repeat;
