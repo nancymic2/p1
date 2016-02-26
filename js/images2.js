@@ -16,6 +16,8 @@ function sizeit() {
 // images on all pages are served based on this function. however the photo credit page gets a larger image on a small screen as it looks better in a single column
 //images names *Cred are the small version. medium is *Med
 
+
+
 	var imgsrc=document.getElementsByClassName('serveImg');
 	for (var i=0; i<imgsrc.length; i++) {
 
@@ -37,19 +39,22 @@ function sizeit() {
 			document.getElementById('smallnav').style.display="none";
 		}
     }
+
     return;
 }
 
 //this function shows and hides the hamburger menu
 function getmenu() {
-	
+
 	var smallnav=document.getElementById('smallnav');
 
 	if (smallnav.style.display=="block") {
 		smallnav.style.display="none";
 	}
 	else {
+		
 		smallnav.style.display="block";
+
 	}
 
 }
