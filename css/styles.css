@@ -234,12 +234,15 @@ img {
 		height: auto;
 	}
 
+	p {
+		font-size: .8em;
+	}
 }
 
 @media screen and (min-width:641px) and (max-width:765px) {
 
 	body {
-		font-size: .8em;
+		font-size: 1em;
 	}
 	#headline {
 	font-size: 1.2em;
